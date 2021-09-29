@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/architect-microservice.iml" filepath="$PROJECT_DIR$/.idea/architect-microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-produto/service-produto.iml" filepath="$PROJECT_DIR$/service-produto/service-produto.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,11 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6d63da82-e31d-4ce2-a583-f898c00a6b34" name="Default Changelist" comment="init">
+      <change afterPath="$PROJECT_DIR$/.idea/architect-microservice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-produto/src/main/java/com/marcosvinicius/serviceproduto/http/ProdutoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-produto/src/main/java/com/marcosvinicius/serviceproduto/http/data/request/ProdutoPersistDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-produto/src/main/java/com/marcosvinicius/serviceproduto/http/data/response/ProdutoResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-produto/src/main/java/com/marcosvinicius/serviceproduto/model/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-produto/src/main/java/com/marcosvinicius/serviceproduto/repository/ProdutoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-produto/src/main/java/com/marcosvinicius/serviceproduto/service/ProdutoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-produto/src/main/java/com/marcosvinicius/serviceproduto/service/ProdutoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-produto/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-produto/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProjectId" id="1ynDW23JNRWJpYNM2Ql38qtGWZ5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -26,5 +89,90 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d63da82-e31d-4ce2-a583-f898c00a6b34" name="Default Changelist" comment="" />
+      <created>1632878487239</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632878487239</updated>
+      <workItem from="1632878488300" duration="3409000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1632878588705</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632878588706</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="859" y="411" key="#Assign_Data_Sources" timestamp="1632879241825">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="859" y="411" key="#Assign_Data_Sources/0.0.1920.1040/1920.316.1366.728@0.0.1920.1040" timestamp="1632879241825" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1632881824851">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.316.1366.728@0.0.1920.1040" timestamp="1632881824851" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1632881417641">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.316.1366.728@0.0.1920.1040" timestamp="1632881417641" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1632881417640">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.316.1366.728@0.0.1920.1040" timestamp="1632881417640" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1632881417640">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.316.1366.728@0.0.1920.1040" timestamp="1632881417640" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1632881417641">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.316.1366.728@0.0.1920.1040" timestamp="1632881417641" />
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1632881417641">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.316.1366.728@0.0.1920.1040" timestamp="1632881417641" />
+    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1632881417641">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040/1920.316.1366.728@0.0.1920.1040" timestamp="1632881417641" />
+    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1632881417641">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040/1920.316.1366.728@0.0.1920.1040" timestamp="1632881417641" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1632881417641">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040/1920.316.1366.728@0.0.1920.1040" timestamp="1632881417641" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1632878603023">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.316.1366.728@0.0.1920.1040" timestamp="1632878603023" />
   </component>
 </project>
