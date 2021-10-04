@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.marcosvinicius</groupId>
     <artifactId>service-produto</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0</version>
     <name>service-produto</name>
     <description>Demo project for Spring Boot</description>
     <properties>
@@ -45,6 +45,15 @@
             <version>2.4.2</version>
         </dependency>
         <dependency>
+            <groupId>com.github.java-json-tools</groupId>
+            <artifactId>json-patch</artifactId>
+            <version>1.13</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-artemis</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
@@ -76,6 +85,22 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>com.google.cloud.tools</groupId>
+                <artifactId>jib-maven-plugin</artifactId>
+                <version>2.6.0</version>
+                <configuration>
+                    <from>
+                        <image>openjdk:15-jdk-slim-buster</image>
+                    </from>
+                    <to>
+                        <image>viniscote/service-produto:${version}</image>
+                    </to>
+                    <container>
+                        <mainClass>com.marcosvinicius.serviceproduto.ServiceProdutoApplication</mainClass>
+                    </container>
+                </configuration>
             </plugin>
         </plugins>
     </build>

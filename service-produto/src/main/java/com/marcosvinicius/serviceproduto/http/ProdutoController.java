@@ -1,5 +1,8 @@
 package com.marcosvinicius.serviceproduto.http;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.github.fge.jsonpatch.JsonPatch;
+import com.github.fge.jsonpatch.JsonPatchException;
 import com.marcosvinicius.serviceproduto.http.data.request.ProdutoPersistDTO;
 import com.marcosvinicius.serviceproduto.http.data.response.ProdutoResponseDto;
 import com.marcosvinicius.serviceproduto.model.Produto;
@@ -17,7 +20,7 @@ public interface ProdutoController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    Produto inserir(@Valid @RequestBody ProdutoPersistDTO dto);
+    Produto save(@Valid @RequestBody ProdutoPersistDTO dto);
 
     @Operation(summary = "Retorna o produto correspondente ao identificador recuperado por parâmetro.")
     @ApiResponses(value = {
@@ -37,4 +40,7 @@ public interface ProdutoController {
     })
     @GetMapping("{id}")
     Produto one(@PathVariable("id") Long id);
+
+    @PatchMapping("{id}")
+    Produto update(@PathVariable("id") Long id, @RequestBody JsonPatch patch) throws JsonPatchException, JsonProcessingException;
 }
