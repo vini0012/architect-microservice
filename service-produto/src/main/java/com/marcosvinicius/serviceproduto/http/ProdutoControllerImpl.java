@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 
 @RestController
-@RequestMapping("produto")
+@RequestMapping("/")
 public class ProdutoControllerImpl implements ProdutoController {
 
     private final ProdutoService produtoService;
@@ -68,11 +68,7 @@ public class ProdutoControllerImpl implements ProdutoController {
 
     @PutMapping("{id}")
     public Produto updateAll(@PathVariable("id") Long id, @RequestBody ProdutoPersistDTO dto) {
-
-
         Produto produto = new Produto(id, dto.getDescricao(), dto.getValor());
         return produtoService.update(produto);
-
     }
-
 }
