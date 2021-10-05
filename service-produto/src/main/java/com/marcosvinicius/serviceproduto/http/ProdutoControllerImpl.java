@@ -9,12 +9,8 @@ import com.fasterxml.jackson.databind.node.JsonNodeFactory;
 import com.github.fge.jsonpatch.JsonPatch;
 import com.github.fge.jsonpatch.JsonPatchException;
 import com.marcosvinicius.serviceproduto.http.data.request.ProdutoPersistDTO;
-import com.marcosvinicius.serviceproduto.http.data.response.ProdutoResponseDto;
 import com.marcosvinicius.serviceproduto.model.Produto;
 import com.marcosvinicius.serviceproduto.service.ProdutoService;
-import io.swagger.v3.oas.annotations.Operation;
-import org.modelmapper.ModelMapper;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 

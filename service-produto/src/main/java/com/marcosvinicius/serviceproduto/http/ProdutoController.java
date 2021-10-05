@@ -4,7 +4,6 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.github.fge.jsonpatch.JsonPatch;
 import com.github.fge.jsonpatch.JsonPatchException;
 import com.marcosvinicius.serviceproduto.http.data.request.ProdutoPersistDTO;
-import com.marcosvinicius.serviceproduto.http.data.response.ProdutoResponseDto;
 import com.marcosvinicius.serviceproduto.model.Produto;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
